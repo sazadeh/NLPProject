@@ -21,6 +21,7 @@ These reviews will be the documents that we will work with in this tutorial. The
 
 <b> References: </b>
 Gensim – Deep learning with paragraph2vec (https://radimrehurek.com/gensim/models/doc2vec.html)
+
 https://radimrehurek.com/gensim/auto_examples/howtos/run_doc2vec_imdb.html#sphx-glr-download-auto-examples-howtos-run-doc2vec-imdb-py
 
 https://arxiv.org/pdf/1507.07998.pdf
