@@ -25,9 +25,7 @@ Gensim – Deep learning with paragraph2vec (https://radimrehurek.com/gensim/mod
 
 https://radimrehurek.com/gensim/auto_examples/howtos/run_doc2vec_imdb.html#sphx-glr-download-auto-examples-howtos-run-doc2vec-imdb-py
 
-https://arxiv.org/pdf/1507.07998.pdf
 
-https://arxiv.org/pdf/1405.4053.pdf
 
 
 
