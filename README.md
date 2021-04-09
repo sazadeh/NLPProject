@@ -11,3 +11,5 @@ We used the imdb Dataset from here: ( It will be downloaded as a one of the step
 
 All the steps is described in the Jupyter Notebook file
 
+#References:
+
