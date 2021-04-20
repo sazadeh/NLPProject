@@ -37,6 +37,11 @@ Error Rate and Model Name:
 0.21308 	 Doc2Vec(dm/m,d100,n5,w5,mc2,t4)
 0.35204 	 Doc2Vec(dm/c,d100,n5,w5,mc2,t4)
 
+Random Forest Clasifier Results:
+
+0.227960 Doc2Vec(dbow,d100,n5,mc2,t4)
+0.255800 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
+
 <b> References: </b>
 Gensim – Deep learning with paragraph2vec (https://radimrehurek.com/gensim/models/doc2vec.html)
 
