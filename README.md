@@ -62,7 +62,7 @@ Random Forest Clasifier Results:
 In the previous implementation , they just trained the model based on Logestic Regression , We trained the models based on RandomForest Classifier and also GaussianNB . We changed some hyperparameters to tune the models.
 
 **Results:**<br />
-We got the based results based on the Logestic Regression and the one of the concatenated model of DbOW and DM has the best result after that we have DBOW plain model which gets the better result which is different from what they menntioned in paper
+We got the based results based on the Logestic Regression and the one of the concatenated model of DBOW and DM has the best result after that we have DBOW plain model which gets the better result which is different from what they menntioned in paper
 
 **References:**<br /> 
 We try to replicate the concepts of these two papers:<br />
