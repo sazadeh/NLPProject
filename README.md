@@ -1,12 +1,16 @@
 # NLPProject
 
 <b>Title: </b>
- Sentiment Analysis with IMDB Dataset (Using Doc2Vec Model/ Gensim)
+ Sentiment Analysis On IMDB Dataset (Using Doc2Vec Model/ Gensim)
 
 We try to use these two papers:
 Paper 1: https://arxiv.org/abs/1405.4053 Paper 2: https://arxiv.org/abs/1507.07998
 
+
 ![image](https://user-images.githubusercontent.com/81987771/115455542-16b33b80-a1f0-11eb-9181-fdb0604f688e.png)
+
+![image](https://user-images.githubusercontent.com/81987771/115455604-2d599280-a1f0-11eb-99a8-39ee17094d3f.png)
+
 
 
 <b> Dataset:</b>
