@@ -7,9 +7,9 @@ We try to use these two papers:
 Paper 1: https://arxiv.org/abs/1405.4053 Paper 2: https://arxiv.org/abs/1507.07998
 
 
-![image](https://user-images.githubusercontent.com/81987771/115455542-16b33b80-a1f0-11eb-9181-fdb0604f688e.png)
+![Screen Shot 2021-04-20 at 3 58 45 PM](https://user-images.githubusercontent.com/81987771/115456630-634b4680-a1f1-11eb-9b13-938f09bd2b81.png)
+<img width="249" alt="Screen Shot 2021-04-06 at 9 28 50 PM" src="https://user-images.githubusercontent.com/81987771/115456641-67776400-a1f1-11eb-9be6-e72cf620809e.png">
 
-![image](https://user-images.githubusercontent.com/81987771/115455604-2d599280-a1f0-11eb-99a8-39ee17094d3f.png)
 
 
 
