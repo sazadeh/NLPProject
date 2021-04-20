@@ -3,7 +3,7 @@
 <b>Title: </b>
  Evaluating Doc2Vec Model based on Sentiment Analysis on IMDB DataSet (Using Doc2Vec Model/ Gensim)
  
- <Background Information>
+ <b>Background Information</b>
  Many ML algorithms require the input to be presented as a fixed-length feature vector. (bag-of-words one of the most common fixed-length feature)
 Bag-of-words has two major weakness: 
  loose ordering of words, ignore semantics of words
