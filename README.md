@@ -59,6 +59,7 @@ Random Forest Clasifier Results:
 0.255800 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
 
 **Methodologies: **<br />
+**Dataset:**<br />
 In the previous implementation , they just trained the model based on Logestic Regression , We trained the models based on RandomForest Classifier and also GaussianNB
 
 **Results: **<br />
