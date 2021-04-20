@@ -6,6 +6,9 @@
 We try to use these two papers:
 Paper 1: https://arxiv.org/abs/1405.4053 Paper 2: https://arxiv.org/abs/1507.07998
 
+![image](https://user-images.githubusercontent.com/81987771/115455542-16b33b80-a1f0-11eb-9181-fdb0604f688e.png)
+
+
 <b> Dataset:</b>
 We used the imdb Dataset from here: ( It will be downloaded as a one of the steps in Jupyter notebook file)
 <http://ai.stanford.edu/~amaas/data/sentiment/>`_ ( the size was more than 25Mb we could not upload here)
