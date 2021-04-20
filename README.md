@@ -41,29 +41,6 @@ These reviews will be the documents that we will work with. There are 100 thousa
 25k reviews for testing (12.5k positive, 12.5k negative)
 50k unlabeled reviews
 
-First Experiment:
-We made these models:
-Doc2Vec(dbow,d100,n5,mc2,t4) vocabulary scanned & state initialized
-Doc2Vec(dm/m,d100,n5,w10,mc2,t4) vocabulary scanned & state initialized
-Doc2Vec(dm/c,d100,n5,w5,mc2,t4) vocabulary scanned & state initialized
-Doc2Vec(dm/m,d100,n5,w5,mc2,t4) vocabulary scanned & state initialized
-Doc2Vec(dm/m,d100,n5,w5,mc2,t4) vocabulary scanned & state initialized
-
-Our Error rates for the buitin models are sorted and the result is :
-Error Rate and Model Name:
-
-0.1074 	 Doc2Vec(dbow,d100,n5,mc2,t4)+Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
-0.1094 	 Doc2Vec(dbow,d100,n5,mc2,t4)+Doc2Vec(dm/c,d100,n5,w5,mc2,t4)
-0.10948 	 Doc2Vec(dbow,d100,n5,mc2,t4)
-0.1096 	 Doc2Vec(dbow,d100,n5,mc2,t4)+Doc2Vec(dm/m,d100,n5,w5,mc2,t4)
-0.18848 	 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
-0.21308 	 Doc2Vec(dm/m,d100,n5,w5,mc2,t4)
-0.35204 	 Doc2Vec(dm/c,d100,n5,w5,mc2,t4)
-
-Random Forest Clasifier Results:
-
-0.227960 Doc2Vec(dbow,d100,n5,mc2,t4)
-0.255800 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
 
 **Methodologies:**<br />
 Our starting point was to replicate part of the papers listed below which includes the original papers on Doc2Vec concept.
