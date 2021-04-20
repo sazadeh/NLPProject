@@ -33,11 +33,10 @@ In this method we ignore the context words in input but force the model to predi
 
 
 **Dataset:**<br />
-We used the imdb Dataset from bellow link here: ( It will be downloaded as a one of the steps in Jupyter notebook file)
-<http://ai.stanford.edu/~amaas/data/sentiment/>`_ ( the size was more than 25Mb we could not upload here)
+We used the imdb Dataset from below link here: ( It will be downloaded as a one of the steps in Jupyter notebook file)
+<http://ai.stanford.edu/~amaas/data/sentiment/>`_ 
 
-These reviews will be the documents that we will work with in this tutorial. There are 100 thousand reviews in total.
-
+These reviews will be the documents that we will work with. There are 100 thousand reviews in total.
 25k reviews for training (12.5k positive, 12.5k negative)
 25k reviews for testing (12.5k positive, 12.5k negative)
 50k unlabeled reviews
