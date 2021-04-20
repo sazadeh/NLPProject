@@ -19,7 +19,6 @@ While Word2Vec computes a feature vector for every word in the corpus, Doc2
 
 **How Does it Work?**
 Both Word2Vec and Doc2Vec train models to predict one or more words. The weight matrices that are created during this training are the word and document vectors.
-
 Gensim allows you to train doc2vec with or without word vectors
 
 **How Does it Work?**
