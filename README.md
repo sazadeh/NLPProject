@@ -23,8 +23,8 @@ Gensim allows you to train doc2vec with or without word vectors
 
 
 ![Screen Shot 2021-04-20 at 4 40 27 PM](https://user-images.githubusercontent.com/81987771/115461302-43b71c80-a1f7-11eb-8ec8-17ebb5422f6f.png)
+![Screen Shot 2021-04-20 at 4 44 01 PM](https://user-images.githubusercontent.com/81987771/115461659-adcfc180-a1f7-11eb-8326-f24928e7c1f2.png)
 
-<img width="249" alt="Screen Shot 2021-04-06 at 9 27 38 PM" src="https://user-images.githubusercontent.com/81987771/115461317-4580e000-a1f7-11eb-9352-3de973fe0438.png">
 
 
 
