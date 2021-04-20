@@ -1,9 +1,9 @@
 # NLPProject
 
-<b>Title: </b>
+**Title: **
  Evaluating Doc2Vec Model based on Sentiment Analysis on IMDB DataSet (Using Doc2Vec Model/ Gensim)
  
- <b>Background Information</b>
+ **Background Information**
  Many ML algorithms require the input to be presented as a fixed-length feature vector. (Bag-Of-Words one of the most common fixed-length feature)
 Bag-Of-Words has two major weaknesses: 
  Loses the  ordering of words, Ignores semantics of words
@@ -11,7 +11,7 @@ Paragraph Vector is an unsupervised algorithm that learns fixed-length feature r
  In this algorithm each document is represented by a dense vector which is trained by predicting words in the document. 
 This method overcomes the Bag-Of-Words weaknesses
 
-<b>How Does it Work?</b>
+**How Does it Work?**
 
 
 
@@ -21,7 +21,7 @@ This method overcomes the Bag-Of-Words weaknesses
 
 
 
-<b> Dataset:</b>
+** Dataset:**
 We used the imdb Dataset from here: ( It will be downloaded as a one of the steps in Jupyter notebook file)
 <http://ai.stanford.edu/~amaas/data/sentiment/>`_ ( the size was more than 25Mb we could not upload here)
 
@@ -57,7 +57,7 @@ Random Forest Clasifier Results:
 0.227960 Doc2Vec(dbow,d100,n5,mc2,t4)
 0.255800 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
 
-<b> References: </b> 
+** References: ** 
 We try to use these two papers:
 Paper 1: https://arxiv.org/abs/1405.4053       Paper 2: https://arxiv.org/abs/1507.07998
 
