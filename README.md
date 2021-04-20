@@ -2,9 +2,18 @@
 
 <b>Title: </b>
  Evaluating Doc2Vec Model based on Sentiment Analysis on IMDB DataSet (Using Doc2Vec Model/ Gensim)
+ 
+ <Background Information>
+ Many ML algorithms require the input to be presented as a fixed-length feature vector. (bag-of-words one of the most common fixed-length feature)
+Bag-of-words has two major weakness: 
+ loose ordering of words, ignore semantics of words
+Paragraph Vector is an unsupervised algorithm that learns fixed-length feature representations from variable-length pieces of text
+ In this algorithm each document represent by a dense vector which is trained by predict words in the document. 
+This method overcome the bag-of-words weaknesses
+
 
 We try to use these two papers:
-Paper 1: https://arxiv.org/abs/1405.4053 Paper 2: https://arxiv.org/abs/1507.07998
+Paper 1: https://arxiv.org/abs/1405.4053       Paper 2: https://arxiv.org/abs/1507.07998
 
 
 ![Screen Shot 2021-04-20 at 3 58 45 PM](https://user-images.githubusercontent.com/81987771/115456630-634b4680-a1f1-11eb-9b13-938f09bd2b81.png)
