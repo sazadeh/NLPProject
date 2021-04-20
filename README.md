@@ -69,7 +69,7 @@ Random Forest Clasifier Results:
 Our starting point was to replicate part of the papers listed below which includes the original papers on Doc2Vec concept.
 We chose to test the application of Doc2Vec on sentiment analysis.
 The Auhtors did not publish their codes .However there were several implementations of their papers. We chose one of those implementation as a baseline.
-That implemenation trained the models based on Gensim(Doc2Vec) and then assess the sentiments uning the Logistic Regression. We expanded that assess the sentiment using RandomForest Classifier and GaussianNB. 
+That implemenation trained the models based on Gensim(Doc2Vec) and then assess the sentiments uning the Logistic Regression. We expanded that assess the sentiment using RandomForest Classifier and GaussianNB.<br />
 *Other papers mentioned the difficulty in replicating the original papers both for accuracy and in terms of the best models and hyperparameters.We performed several experiments to determin the best Doc2Vec model in predicting sentiment.*
 
 **Results:**<br />
