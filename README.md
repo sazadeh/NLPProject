@@ -11,9 +11,8 @@ Paragraph Vector is an unsupervised algorithm that learns fixed-length feature r
  In this algorithm each document is represented by a dense vector which is trained by predicting words in the document. 
 This method overcomes the Bag-Of-Words weaknesses
 
+<b>How Does it Work?</b>
 
-We try to use these two papers:
-Paper 1: https://arxiv.org/abs/1405.4053       Paper 2: https://arxiv.org/abs/1507.07998
 
 
 ![Screen Shot 2021-04-20 at 3 58 45 PM](https://user-images.githubusercontent.com/81987771/115456630-634b4680-a1f1-11eb-9b13-938f09bd2b81.png)
@@ -59,6 +58,9 @@ Random Forest Clasifier Results:
 0.255800 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
 
 <b> References: </b> 
+We try to use these two papers:
+Paper 1: https://arxiv.org/abs/1405.4053       Paper 2: https://arxiv.org/abs/1507.07998
+
 Gensim – Deep learning with paragraph2vec (https://radimrehurek.com/gensim/models/doc2vec.html)
 
 https://radimrehurek.com/gensim/auto_examples/howtos/run_doc2vec_imdb.html#sphx-glr-download-auto-examples-howtos-run-doc2vec-imdb-py
