@@ -1,6 +1,6 @@
 # NLPProject
 
-**Title: **
+**Title:**
  Evaluating Doc2Vec Model based on Sentiment Analysis on IMDB DataSet (Using Doc2Vec Model/ Gensim)
  
  **Background Information**
