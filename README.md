@@ -24,19 +24,14 @@ Gensim allows you to train doc2vec with or without word vectors
 <img src="https://user-images.githubusercontent.com/81987771/115461302-43b71c80-a1f7-11eb-8ec8-17ebb5422f6f.png" width="500"/> <img src="https://user-images.githubusercontent.com/81987771/115461659-adcfc180-a1f7-11eb-8326-f24928e7c1f2.png" width="500"/> 
 
 
-
-
-
-** Dataset:**<br />
-We used the imdb Dataset from here: ( It will be downloaded as a one of the steps in Jupyter notebook file)
+**Dataset:**<br />
+We used the imdb Dataset from bellow link here: ( It will be downloaded as a one of the steps in Jupyter notebook file)
 <http://ai.stanford.edu/~amaas/data/sentiment/>`_ ( the size was more than 25Mb we could not upload here)
 
 These reviews will be the documents that we will work with in this tutorial. There are 100 thousand reviews in total.
 
 25k reviews for training (12.5k positive, 12.5k negative)
-
 25k reviews for testing (12.5k positive, 12.5k negative)
-
 50k unlabeled reviews
 
 First Experiment:
@@ -62,6 +57,12 @@ Random Forest Clasifier Results:
 
 0.227960 Doc2Vec(dbow,d100,n5,mc2,t4)
 0.255800 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
+
+** Methodologies: **<br />
+In the previous implementation , they just trained the model based on Logestic Regression , We trained the models based on RandomForest Classifier and also GaussianNB
+
+** Results: **<br />
+We got the based results based on the Logestic Regression and the one of the concatenated model of DbOW and DM has the best result after that we have DBOW plain model which gets the better result which is different from what they menntioned in paper
 
 ** References: **<br /> 
 We try to use these two papers:
