@@ -1,7 +1,7 @@
 # NLPProject
 
-***Title:***<br />
- *Evaluating Doc2Vec Model based on Sentiment Analysis on IMDB DataSet (Using Doc2Vec Model/ Gensim)*
+**Title:**<br />
+ *Evaluating Doc2Vec Model based on Sentiment Analysis on IMDB DataSet (Using Gensim)*
  
  **Background Information** <br />
  Many ML algorithms require the input to be presented as a fixed-length feature vector. (Bag-Of-Words one of the most common fixed-length feature)
