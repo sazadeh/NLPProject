@@ -58,14 +58,13 @@ Random Forest Clasifier Results:
 0.227960 Doc2Vec(dbow,d100,n5,mc2,t4)
 0.255800 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
 
-**Methodologies: **<br />
-**Dataset:**<br />
-In the previous implementation , they just trained the model based on Logestic Regression , We trained the models based on RandomForest Classifier and also GaussianNB
+**Methodologies:**<br />
+In the previous implementation , they just trained the model based on Logestic Regression , We trained the models based on RandomForest Classifier and also GaussianNB . We changed some hyperparameters to tune the models.
 
-**Results: **<br />
+**Results:**<br />
 We got the based results based on the Logestic Regression and the one of the concatenated model of DbOW and DM has the best result after that we have DBOW plain model which gets the better result which is different from what they menntioned in paper
 
-**References: **<br /> 
+**References:**<br /> 
 We try to use these two papers:
 Paper 1: https://arxiv.org/abs/1405.4053       Paper 2: https://arxiv.org/abs/1507.07998
 
