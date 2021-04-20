@@ -22,8 +22,9 @@ Both Word2Vec and Doc2Vec train models to predict one or more words. The weight 
 Gensim allows you to train doc2vec with or without word vectors
 
 
-<img width="249" alt="Screen Shot 2021-04-06 at 9 28 50 PM" src="https://user-images.githubusercontent.com/81987771/115460948-e0c58580-a1f6-11eb-9b4e-e359229a80f8.png"> ![Screen Shot 2021-04-20 at 3 58 45 PM](https://user-images.githubusercontent.com/81987771/115460960-e3c07600-a1f6-11eb-9a99-ef356a2b444d.png)
+![Screen Shot 2021-04-20 at 4 40 27 PM](https://user-images.githubusercontent.com/81987771/115461302-43b71c80-a1f7-11eb-8ec8-17ebb5422f6f.png)
 
+<img width="249" alt="Screen Shot 2021-04-06 at 9 27 38 PM" src="https://user-images.githubusercontent.com/81987771/115461317-4580e000-a1f7-11eb-9352-3de973fe0438.png">
 
 
 
