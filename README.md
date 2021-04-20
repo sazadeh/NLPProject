@@ -58,7 +58,7 @@ Random Forest Clasifier Results:
 0.227960 Doc2Vec(dbow,d100,n5,mc2,t4)
 0.255800 Doc2Vec(dm/m,d100,n5,w10,mc2,t4)
 
-<b> References: </b>
+<b> References: </b> 
 Gensim – Deep learning with paragraph2vec (https://radimrehurek.com/gensim/models/doc2vec.html)
 
 https://radimrehurek.com/gensim/auto_examples/howtos/run_doc2vec_imdb.html#sphx-glr-download-auto-examples-howtos-run-doc2vec-imdb-py
