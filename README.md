@@ -15,7 +15,10 @@ This method overcomes the Bag-Of-Words weaknesses
 **Word2Vec Vs. Doc2Vec**
 In word2vec, you train to find word vectors and then you use these word vectors in NLP tasks.
 doc2vec generates vectors representing documents (sentences, paragraphs) 
-While Word2Vec computes a feature vector for every word in the corpus, Doc2Vec computes a feature vector for every document in the corpus
+While Word2Vec computes a feature vector for every word in the corpus, Doc2Vec computes a feature vector for every document in the corpus. 
+
+**How Does it Work?**
+Both Word2Vec and Doc2Vec train models to predict one or more words. The weight matrices that are created during this training are the word and document vectors.
 
 Gensim allows you to train doc2vec with or without word vectors
 
