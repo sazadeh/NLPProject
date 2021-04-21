@@ -23,7 +23,7 @@ Both Word2Vec and Doc2Vec train models to predict one or more words. The weight 
 Gensim allows you to train Doc2Vec with or without word vectors
 
 **Paragraph Vector : A distributed memory model (PV-DM)** (Right Image)<br />
-The basic idea behind PV-DM is inspired from Word2Vec . Every paragraph mapped to a unique vector represent by a column in matrix D  and every word is map to a unique vector represent by a column in matrix W. Paragraph vector or word vectors are averaged or concatenated to predict the next word in context.
+The basic idea behind PV-DM is inspired from Word2Vec . Every paragraph is mapped to a unique vector represent by a column in matrix D  and every word is mapped to a unique vector represent by a column in matrix W. Paragraph vector or word vectors are averaged or concatenated to predict the next word in context.
 After being trained , the paragraph vector can be used as a features for paragraph. 
 
 **Paragraph Vector without ordering :Distributed bag of words (PV-DBOW)** (Left Image) <br />
