@@ -52,7 +52,7 @@ These reviews will be the documents that we will work with. There are 100 thousa
 Our starting point was to replicate part of the papers listed below which includes the original papers on Doc2Vec concept.
 We chose to test the application of Doc2Vec on sentiment analysis.
 The authors did not publish their code .However there were several implementations of their papers. We chose one of those implementations as a baseline.
-That implemenation trained the models based on Gensim(Doc2Vec) and then assess the sentiment using  Logistic Regression. We expanded that assessmennt of the sentiment using RandomForest Classifier and GaussianNB.<br />
+That implemenation trained the models based on Gensim(Doc2Vec) and then assess the sentiment using  Logistic Regression. We expanded that assessment of the sentiment using RandomForest Classifier and GaussianNB.<br />
 *Other papers mentioned the difficulty in replicating the original papers both for accuracy and in terms of the best models and hyperparameters.We performed several experiments to determine the best Doc2Vec model in predicting sentiment.*
 
 Tuning Models were built using DBOW, DM(with averaging the word vectors), DM with concatenating the word vectors as well as combinations of DBOW and each of the two DM models.
