@@ -6,7 +6,8 @@
  **Background Information** <br />
  Many ML algorithms require the input to be presented as a fixed-length feature vector. (For example Bag-Of-Words is one of the most common fixed-length feature.)
 Bag-Of-Words has two major weaknesses: 
- * Loses the  ordering of words *Ignores semantics of words
+1)Loses the  ordering of words 2)Ignores semantics of words
+
 Paragraph Vector is an unsupervised algorithm that learns fixed-length feature representations from variable-length pieces of text.
  In this algorithm each document is represented by a dense vector which is trained by predicting words in the document. 
 This method overcomes the Bag-Of-Words weaknesses.
