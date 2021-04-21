@@ -51,7 +51,11 @@ That implemenation trained the models based on Gensim(Doc2Vec) and then assess t
 *Other papers mentioned the difficulty in replicating the original papers both for accuracy and in terms of the best models and hyperparameters.We performed several experiments to determine the best Doc2Vec model in predicting sentiment.*
 
 **Results:**<br />
-We got the based results based on the Logestic Regression and the one of the concatenated model of DBOW and DM has the best result after that we have DBOW plain model which gets the better result which is different from what they menntioned in paper
+The Doc2Vec is a strong methodology for predicting sentiments.However the model has to be chosen carefully and it has to be tuned.
+The original papers indicated that a more complex concatenated models had the lowest error rate however we found that the simpler DBOW Model was the same or better.
+
+![Screen Shot 2021-04-20 at 7 45 29 PM](https://user-images.githubusercontent.com/81987771/115480324-41b18580-a218-11eb-9bcf-652fc585ab9a.png)
+
 
 **References:**<br /> 
 We try to replicate the concepts of these two papers:<br />
