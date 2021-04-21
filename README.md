@@ -34,7 +34,7 @@ In this method we ignore the context words in input but force the model to predi
 
 
 **Dataset:**<br />
-We used the imdb Dataset from below link here: ( It will be downloaded as a one of the steps in Jupyter notebook file)
+We used the imdb Dataset from below link here: ( It will be downloaded as one of the steps in the Jupyter notebook file)
 <http://ai.stanford.edu/~amaas/data/sentiment/>`_ 
 
 These reviews will be the documents that we will work with. There are 100 thousand reviews in total.
