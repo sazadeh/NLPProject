@@ -58,7 +58,8 @@ The sample parameter was tried for how much higher frequency words are down samp
 
 The negative sampling (with 5 words) was tried based on literature.
 
-The final models chosen were: DBOW (due to itès consistently low error rate with the advantage of less memory required) window size of 5 Alpha of 0.025 final Learning rate of 0.0001
+The final models chosen were: DBOW (due to itès consistently low error rate with the advantage of less memory required) window size of 5 Alpha of 0.025 final Learning rate of 0.0001 <br />
+
 **Results:**<br />
 The Doc2Vec is a strong methodology for predicting sentiments.However the model has to be chosen carefully and it has to be tuned.
 The original papers indicated that a more complex concatenated models had the lowest error rate however we found that the simpler DBOW Model was the same or better.
