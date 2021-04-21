@@ -3,6 +3,11 @@
 **Title:**<br />
  *Evaluating Doc2Vec Model based on Sentiment Analysis on IMDB DataSet (Using Gensim)*
  
+ **Instruction** <br />
+ The total end-to-end project including loading the data is contained in the Jupyter Notebook. 
+ You need to install gensim ,gensim.utils packages
+ 
+ 
  **Background Information** <br />
  Many ML algorithms require the input to be presented as a fixed-length feature vector. (For example Bag-Of-Words is one of the most common fixed-length feature.)
 Bag-Of-Words has two major weaknesses: 
