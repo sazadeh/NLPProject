@@ -6,20 +6,20 @@
  **Background Information** <br />
  Many ML algorithms require the input to be presented as a fixed-length feature vector. (For example Bag-Of-Words is one of the most common fixed-length feature.)
 Bag-Of-Words has two major weaknesses: 
- Loses the  ordering of words, Ignores semantics of words
-Paragraph Vector is an unsupervised algorithm that learns fixed-length feature representations from variable-length pieces of text
+ * Loses the  ordering of words *Ignores semantics of words
+Paragraph Vector is an unsupervised algorithm that learns fixed-length feature representations from variable-length pieces of text.
  In this algorithm each document is represented by a dense vector which is trained by predicting words in the document. 
-This method overcomes the Bag-Of-Words weaknesses
+This method overcomes the Bag-Of-Words weaknesses.
 
 
 **Word2Vec Vs. Doc2Vec** <br />
-In word2vec, you train to find word vectors and then you use these word vectors in NLP tasks.
-doc2vec generates vectors representing documents (sentences, paragraphs) 
+In Word2Vec, you train to find word vectors and then you use these word vectors in NLP tasks.
+Doc2Vec generates vectors representing documents (sentences, paragraphs) 
 While Word2Vec computes a feature vector for every word in the corpus, Doc2Vec computes a feature vector for every document in the corpus. 
 
 **How Does it Work?** <br />
 Both Word2Vec and Doc2Vec train models to predict one or more words. The weight matrices that are created during this training are the word and document vectors.
-Gensim allows you to train doc2vec with or without word vectors
+Gensim allows you to train Doc2Vec with or without word vectors
 
 **Paragraph Vector : A distributed memory model (PV-DM)** (Right Image)<br />
 The basic idea behind PV-DM is inspired from Word2Vec . Every paragraph mapped to a unique vector represent by a column in matrix D  and every word is map to a unique vector represent by a column in matrix W. Paragraph vector or word vectors are averaged or concatenated to predict the next word in context.
