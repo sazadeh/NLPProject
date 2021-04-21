@@ -8,7 +8,7 @@
 Bag-Of-Words has two major weaknesses: 
 1)Loses the  ordering of words 2)Ignores semantics of words
 
-Paragraph Vector is an unsupervised algorithm that learns fixed-length feature representations from variable-length pieces of text.
+Doc2Vec (Paragraph Vector) is an unsupervised algorithm that learns fixed-length feature representations from variable-length pieces of text.
  In this algorithm each document is represented by a dense vector which is trained by predicting words in the document. 
 This method overcomes the Bag-Of-Words weaknesses.
 
