@@ -50,6 +50,15 @@ The authors did not publish their code .However there were several implementatio
 That implemenation trained the models based on Gensim(Doc2Vec) and then assess the sentiment using  Logistic Regression. We expanded that assessmennt of the sentiment using RandomForest Classifier and GaussianNB.<br />
 *Other papers mentioned the difficulty in replicating the original papers both for accuracy and in terms of the best models and hyperparameters.We performed several experiments to determine the best Doc2Vec model in predicting sentiment.*
 
+Tuning Models were built using DBOW, DM(with averaging the word vectors), DM with concatenating the word vectors as well as combinations of DBOW and each of the two DM models.
+
+As well, different window sizes were tested between 5 and 10. The initial learning rate, alpha, was tried between 0.01 and 0.05. And the final learning rate was tried between 0.0001 and the starting rate.
+
+The sample parameter was tried for how much higher frequency words are down sampled and was set at 0 in the end.
+
+The negative sampling (with 5 words) was tried based on literature.
+
+The final models chosen were: DBOW (due to itès consistently low error rate with the advantage of less memory required) window size of 5 Alpha of 0.025 final Learning rate of 0.0001
 **Results:**<br />
 The Doc2Vec is a strong methodology for predicting sentiments.However the model has to be chosen carefully and it has to be tuned.
 The original papers indicated that a more complex concatenated models had the lowest error rate however we found that the simpler DBOW Model was the same or better.
