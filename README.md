@@ -52,7 +52,8 @@ These reviews will be the documents that we will work with. There are 100 thousa
 Our starting point was to replicate part of the papers listed below which includes the original papers on Doc2Vec concept.
 We chose to test the application of Doc2Vec on sentiment analysis.
 The authors did not publish their code .However there were several implementations of their papers. We chose one of those implementations as a baseline.
-That implemenation trained the models based on Gensim(Doc2Vec) and then assess the sentiment using  Logistic Regression. We expanded that assessment of the sentiment using RandomForest Classifier and GaussianNB.<br />
+That implementation![image](https://user-images.githubusercontent.com/81987771/118184666-9efcb900-b409-11eb-8b66-ba4f649aeb62.png)
+ trained the models based on Gensim(Doc2Vec) and then assess the sentiment using  Logistic Regression. We expanded that assessment of the sentiment using RandomForest Classifier and GaussianNB.<br />
 *Other papers mentioned the difficulty in replicating the original papers both for accuracy and in terms of the best models and hyperparameters.We performed several experiments to determine the best Doc2Vec model in predicting sentiment.*
 
 Tuning Models were built using DBOW, DM(with averaging the word vectors), DM with concatenating the word vectors as well as combinations of DBOW and each of the two DM models.
@@ -66,7 +67,7 @@ The negative sampling (with 5 words) was tried based on literature.
 The final models chosen were: DBOW (due to itès consistently low error rate with the advantage of less memory required) window size of 5 Alpha of 0.025 final Learning rate of 0.0001 <br />
 
 **Results:**<br />
-The Doc2Vec is a strong methodology for predicting sentiments.However the model has to be chosen carefully and it has to be tuned.
+The Doc2Vec is a strong methodology for predicting sentiments. However, the model has to be chosen carefully and it has to be tuned.
 The original papers indicated that a more complex concatenated models had the lowest error rate however we found that the simpler DBOW Model was the same or better.
 
 ![Screen Shot 2021-04-20 at 7 45 29 PM](https://user-images.githubusercontent.com/81987771/115480324-41b18580-a218-11eb-9bcf-652fc585ab9a.png)
