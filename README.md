@@ -35,7 +35,7 @@ After being trained , the paragraph vector can be used as a feature for the para
 In this method we ignore the context words in input but force the model to predict words randomly sampled from the paragraph.In this version, the paragraph vector is trained to predict the words in small windows.  
 
 
-<img src="https://user-images.githubusercontent.com/81987771/115461302-43b71c80-a1f7-11eb-8ec8-17ebb5422f6f.png" width="500"/> <img src="https://user-images.githubusercontent.com/81987771/115461659-adcfc180-a1f7-11eb-8326-f24928e7c1f2.png" width="500"/> 
+<img src="https://user-images.githubusercontent.com/81987771/115461302-43b71c80-a1f7-11eb-8ec8-17ebb5422f6f.png" width="400"/> <img src="https://user-images.githubusercontent.com/81987771/115461659-adcfc180-a1f7-11eb-8326-f24928e7c1f2.png" width="400"/> 
 
 
 **Dataset:**<br />
